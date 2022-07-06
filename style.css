@@ -1,0 +1,121 @@
+.jumbotron {
+    background-color: #f6f0e4 !important;
+}
+
+.form-style-6 {
+    font: 95% Arial, Helvetica, sans-serif;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 16px;
+    background: #F7F7F7;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.form-style-6 h1 {
+    background: rgb(251, 166, 9);
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: -16px -16px 16px -16px;
+}
+
+.form-style-6 h1, input {
+    border-radius: 8px;
+}
+
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select {
+    transition: all 0.30s ease-in-out;
+    transition: all 0.30s ease-in-out;
+    transition: all 0.30s ease-in-out;
+    transition: all 0.30s ease-in-out;
+    outline: none;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    font: 95% Arial, Helvetica, sans-serif;
+}
+
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus {
+    box-shadow: 0 0 5px rgb(251, 166, 9);
+    padding: 3%;
+    border: 1px solid rgb(251, 166, 9);
+}
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 3%;
+    background: rgb(251, 166, 9);
+    border-bottom: 2px solid rgb(251, 166, 9);
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    color: #fff;
+}
+
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover {
+    background: rgb(251, 166, 9);
+}
+
+
+#portfolio {
+    background-color: #f6f0e4;
+}
+
+#portfolio p {
+    font-family:'Roboto Slab';
+    font-weight: bold;
+    text-align: center;
+}
+
+#mainNav .container .navbar-brand {
+    padding: 0px !important;
+    font-size: 3em;
+}
+
+.navbar-nav a:hover {
+    color: orange !important;
+    transform: scale(1.2);
+    background-color: white;
+}
+
+
+#about {
+    background-image:url(images/gradientBackground.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#about .container .img-responsive {
+    height: 20em;
+}
