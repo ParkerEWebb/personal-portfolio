@@ -20,7 +20,7 @@
 <!-- navigation -->
 
 <body id="page-top">
-    <nav class="navbar navbar-expand-lg text-uppercase fixed-top bg-secondary" id="mainNav">
+    <nav class="navbar navbar-expand-lg text-uppercase fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand" href="#page-top">PW</a>
             <button class="navbar-toggler text-uppercase font-weight-bold bg-light text-dark rounded" type="button"
@@ -52,8 +52,8 @@
     <!-- about -->
     <section class="page-section text-white mb-0 col-12" id="about">
         <div class="container">
-            <img class="img-responsive mx-auto d-block" src="images/headshot.jpg"
-                class="rounded mx-auto d-block">
+            <img class="img-responsive mx-auto d-block" src="images/headshot.jpg" class="rounded mx-auto d-block">
+            <h3 class="page-section-heading text-center text-uppercase text-light pt-5">About me</h3>
             <div class="divider-custom divider-light">
                 <div class="divider-custom-line"></div>
                 <div class="divider-custom-icon"><i class="fa-regular fa-circle-user"></i></div>
@@ -73,34 +73,55 @@
     <!-- portfolio -->
     <section class="page-section portfolio" id="portfolio">
         <div class="container">
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Projects</h2>
+            <!-- Portfolio Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+            <!-- Icon Divider-->
             <div class="divider-custom">
                 <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fa-solid fa-list-check"></i></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                 <div class="divider-custom-line"></div>
             </div>
+            <!-- Portfolio Grid Items-->
             <div class="row justify-content-center">
+                <!-- Portfolio Item 1-->
                 <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto">
-                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white"><i
                                     class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="images/yogaScreenshot.png" alt="..."/>
-                        <p class="">My first landing page, based on a fictional yoga studio.</p>
+                        <img class="img-fluid" src="images/fiddleScreenshot.png" alt="..."/>
+                        <figcaption>My first HTML page.</figcaption>
                     </div>
                 </div>
+                <!-- Portfolio Item 2-->
                 <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto">
-                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="images/yogaScreenshot.png" alt="..." />
+                        <figcaption>My first attempt at a landing page, based on a fictional yoga studio.</figcaption>
+                    </div>
+                </div>
+                <!-- Portfolio Item 3-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white"><i
                                     class="fas fa-plus fa-3x"></i></div>
                         </div>
                         <img class="img-fluid" src="images/spriteScreenshot.png" alt="..." />
-                        <p>Sprite website mockup.</p>
+                        <figcaption>I was challenged to re-create an iconic Sprite "Obey Your Thirst" landing page.</figcaption>
                     </div>
                 </div>
             </div>
+        </div>
+        </div>
     </section>
     <section class="page-selection contact" id="contact">
         <div class="form-style-6">
@@ -114,10 +135,10 @@
         </div>
     </section>
 
-    <div class="footer bg-secondary" id="footer">
+    <div class="footer" id="footer">
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="scripts.js"></script>
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
 
