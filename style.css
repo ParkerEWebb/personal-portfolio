@@ -124,6 +124,7 @@ figcaption {
     background-image:url(images/gradientBackground.jpeg);
     background-repeat: no-repeat;
     background-position: center;
+    margin: 0px !important;
 }
 
 
