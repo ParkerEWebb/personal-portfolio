@@ -97,6 +97,10 @@
     text-align: center;
 }
 
+#portfolio h1 {
+    font-size: 2.25rem;
+}
+
 #mainNav .container .navbar-brand {
     padding: 0px !important;
     font-size: 3em;
